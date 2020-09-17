@@ -3,16 +3,18 @@
 /**
  * main - entry point
  *
- * Description: print the alphabet in lowercase using putchar only twice 
+ * Description: print the alphabet in lowercase using putchar only twice
  *
  * Return: 0
  */
 int main(void)
 {
-for(int x = 'A'; x <= 'z'; x++)
+int x = 'A';
+while (x <= 'Z')
 {
 x = tolower(x);
 putchar(x);
+x++;
 }
-return 0;
+return (0);
 }
